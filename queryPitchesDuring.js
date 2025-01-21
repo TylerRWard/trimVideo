@@ -1,9 +1,9 @@
 const { Pool } = require('pg');
 const db = new Pool({//this is temporary hardcoded to be run outside of the express server change this when adding to server
-  host: 'ps-db1.ckh8ywgarx9m.us-east-2.rds.amazonaws.com',
-  port: 5432,
-  database: 'ps1',
-  user: 'reactapp',
+  host: 'databaseName',
+  port: portNum,
+  database: 'databaseName',
+  user: 'user',
   password: 'password',
   ssl:{
     rejectUnauthorized: false

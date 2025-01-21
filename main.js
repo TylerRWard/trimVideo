@@ -6,7 +6,7 @@
 const {endTime, creationTime} = require('./ffprobeStuff')
 const queryPitchesDuring = require('./queryPitchesDuring')
 const trim = require('./trimPitch');
-vidname = './00002.MTS';
+vidname = 'videoName';//video name here
 //const fixCreationTime = require('./fixCreationTime')
 
 async function main(){

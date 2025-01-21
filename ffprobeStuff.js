@@ -67,23 +67,3 @@ async function creationTime(vidname) {
   module.exports = {duration, endTime, creationTime};
 
 
-/*
-
-creationTime().then(time => {
-    console.log('creation time ',time);
-  }).catch(err => {
-    console.error(err);
-  });
-  duration().then(time => {
-    console.log('duration ',time);
-  }).catch(err => {
-    console.error(err);
-  });
-  
-  endTime().then(time => {
-    console.log('endTime ',time);
-  }).catch(err => {
-    console.error(err);
-  });
-  
-  */
